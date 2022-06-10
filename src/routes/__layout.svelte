@@ -9,4 +9,4 @@
   <slot />
 </main>
 
-<footer>Hello, I'm the footer.</footer>
+<!--<footer>Hello, I'm the footer.</footer>-->

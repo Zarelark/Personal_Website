@@ -82,14 +82,13 @@ class Entry {
             })
 
             // Check keywords
-            
-                this.keywords.forEach(k => {
-                    if(re.test(k)){
-                        this.active = true;
-                        this.memo.set(s, true);
-                        return;
-                    }
-                })
+            this.keywords.forEach(k => {
+                if(re.test(k)){
+                    this.active = true;
+                    this.memo.set(s, true);
+                    return;
+                }
+            })
             
             // text, bullets, keywords did not contain the token
             this.memo.set(s, false);
