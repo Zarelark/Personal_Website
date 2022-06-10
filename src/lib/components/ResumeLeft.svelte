@@ -2,7 +2,7 @@
     import Skill from '$lib/components/Skill.svelte';
     import ResumeSection from './ResumeSection.svelte';
     import Icon from '$lib/icons/Icon.svelte';
-    import ExternalLinkIcon from '$lib/icons/externalLinkIcon.svelte';
+    import ExternalLinkIcon from '$lib/icons/ExternalLinkIcon.svelte';
     import { resumeInfo } from '$lib/stores/resumeInfo';
 </script>
 
