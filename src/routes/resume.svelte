@@ -40,7 +40,7 @@
   .flex-left {
     flex: 1 0 auto;
     margin: 1rem;
-    width: 20%;
+    width: 23%;
   }
 
   .flex-center{

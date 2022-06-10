@@ -12,7 +12,13 @@ class Entry {
         this.search = search;
         this.active = true;
         this.memo = new Map();
-        this.keywords = keywords;
+        
+        if(keywords){
+            this.keywords = keywords;
+        } else {
+            this.keywords = [];
+        }
+        
 
         // handle date2
         if(date2){
@@ -76,7 +82,7 @@ class Entry {
             })
 
             // Check keywords
-            if(this.keywords){
+            
                 this.keywords.forEach(k => {
                     if(re.test(k)){
                         this.active = true;
@@ -84,7 +90,7 @@ class Entry {
                         return;
                     }
                 })
-            }
+            
             // text, bullets, keywords did not contain the token
             this.memo.set(s, false);
         }

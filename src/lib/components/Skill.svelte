@@ -101,7 +101,7 @@
 
     .name{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 1.5em;
+        font-size: 1.2em;
         text-align: left;
         margin-bottom: 0;
         padding-bottom: 0;

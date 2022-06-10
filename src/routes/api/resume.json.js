@@ -10,10 +10,10 @@ let resume = {
 		"name":"Nathan Taylor",
 		"label":"Computer Science Graduate Student at UPenn",
 		"image":"https://avatars.githubusercontent.com/u/67612020?v=4",
-		"email":"zarelark@gmail.com",
+		"email":"nathansherwoodtaylor@gmail.com",
 		"phone":"",
 		"url":null,
-		"summary":"Nathan is a Philadelphia native. ",
+		"summary":"Nathan comes to computer science and software engineering from a strong background in math and science. He studied physics as an undergraduate and then spent a year pursuing a PhD in mechanical engineering before pursuing his passion in computer science. Nathan is a Philadelphia native and a current master's student at the University of Pennsylvania.",
 		"profiles":[
 			{
 				"network":"GitHub",
@@ -41,47 +41,70 @@ let resume = {
 	},
 	"skills":[
 		{
-			"name":"Matlab",
+			"name":"Science",
 			"level":"Advanced",
 			"keywords":[
-				"Machine Learning",
 				"Data Science",
 				"Data Visualization",
-				"Mathematical Modeling and Simulation"
-			],
-			"rating":4,
-			"yearsOfExperience":3
-		},
-		{
-			"name":"COMSOL",
-			"level":"Advanced",
-			"keywords":[
-				"Science Modeling",
+				"Physics",
+				"Mathematical Modeling",
+				"Error Anlysis",
+				"statistical assesment",
+				"Mathematics",
+				"Chemistry",
+				"COMSOL",
+				"Research",
+				"Model",
+				"Telescope",
+				"MATLAB",
 				"Simulation",
-				"PDEs",
-				"Finite Element Analysis",
-				"CFD"
+				"LaTeX"
 			],
 			"rating":4,
-			"yearsOfExperience":4
+			"yearsOfExperience":5
 		},
 		{
-			"name":"Python",
-			"level":"Intermediate",
+			"name":"Web Development",
+			"level":"Learning",
 			"keywords":[
-				
+				"Javascript",
+				"HTML",
+				"CSS",
+				"SASS",
+				"Svelte",
+				"SvelteKit",
+				"API",
+				"Restful"
+			],
+			"rating":4,
+			"yearsOfExperience":1
+		},
+		{
+			"name":"Software Development",
+			"level":"Beginner",
+			"keywords":[
+				"Software Engineering",
+				"Python",
+				"Java",
+				"C",
+				"Computer Science",
+				"Computer System"
 			],
 			"rating":3,
-			"yearsOfExperience":3
+			"yearsOfExperience":1
 		},
 		{
-			"name":"LaTeX",
-			"level":"",
+			"name":"Communication",
+			"level":"Intermediate",
 			"keywords":[
-				
+				"Writing",
+				"Taught",
+				"Teach",
+				"Speak",
+				"Author"
 			],
 			"rating":0,
-			"yearsOfExperience":null
+			"yearsOfExperience":5
 		}
 	],
 	"projects":[
@@ -119,7 +142,7 @@ let resume = {
 		{
 			"name":"Coil Pump Simulation",
 			"description":"I overhauled and optimized a simulation of a coil pump that was built in Excel with extensive use of VBA macros. I also derived an equation to describe the performance of the coil pump based on several parameters.",
-			"url":"https://pubmed.ncbi.nlm.nih.gov/29754995/",
+			"url":"https://arc.aiaa.org/doi/10.2514/6.2021-3371",
 			"highlights":[
 				"Worked with highly unreadable code, and refactored it to make it much more readable and easier to maintain.",
 				"Eliminated crashing in the simulaion and made it run 20% faster.",
@@ -142,8 +165,36 @@ let resume = {
 			"endDate":"2018-09-01",
 			"startDate":"2018-06-01",
 			"entity":"",
+			"type":""
+		},
+		{
+			"name":"Personal Website and Blog",
+			"description":"I built this website from scratch using SvelteKit, Svelte, SASS, and of course JavaScript, HTML, and CSS. Read more about how I did it soon in an upcoming blog post. ",
+			"url":"https://github.com/Zarelark/Personal_Website",
+			"highlights":[
+				"The initial website structure and blog functionality was implemented based on this excellent blog post by Josh Collinsworth: https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog.",
+				"The resume viewer fetches resume data in JSON Resume format and uses it to populate the page. The skills section of the resume data are rendered as buttons that allow the user to sort the resume for work experiences and projects that pertain to that skill."
+			],
+			"keywords":[
+				"Web Development",
+				"Svelte",
+				"SvelteKit",
+				"HTML",
+				"Javascript",
+				"Version Control",
+				"GIT",
+				"CSS",
+				"SASS",
+				"Front-end",
+				"API",
+				"Restful",
+				"rest"
+			],
+			"roles":"Developer",
+			"startDate":"2022-06-01",
+			"endDate":"2023-06-01",
+			"entity":"",
 			"type":"",
-			"website":"https://arc.aiaa.org/doi/10.2514/6.2021-3371",
 		}
 	],
 	"work":[
@@ -155,9 +206,12 @@ let resume = {
 			"url":"https://www.linkedin.com/school/drexel-engineering/",
 			"startDate":"2020-09-01",
 			"endDate":"2021-06-01",
-			"summary":"As part of my PhD program",
+			"summary":"As part of my PhD program at Drexel, I conducted novel research in the mechanical engineering field. During my time there, I was involved in two research projects, one attempting to develop a novel 3D printing technology and the other investigating a potential drug delivery system for prevention of airborne infectious dieseases like Covid-19.",
 			"highlights":[
-				
+				"Developed a simulation using COMSOL and MATLAB of a 3D printer nozzle that uses electrohydrodynamics as the ink motivating force. The hope was that this techonolgy could eventually be used to print living tissue.",
+				"Began research into using electrostatic forces for targeted delivery of drugs in the respiratory system.",
+				"Applied to several national grant programs.",
+				"Assisted teaching a master's level and a undergraduate level course."
 			],
 			"isCurrentRole":false,
 			"start":{
@@ -179,9 +233,11 @@ let resume = {
 			"url":"https://www.linkedin.com/company/softerware-inc-/",
 			"startDate":"2019-10-01",
 			"endDate":"2020-06-01",
-			"summary":"Machine Learning",
+			"summary":"In this client facing position, I assisted customers in their use of SofterWare's Donor Relationship Management software.",
 			"highlights":[
-				
+				"Fielded phonecalls and chat sessions from customers and gave direct support on all areas of the software while maintaing an excellent net promoter score.",
+				"Developed a series of new text shortcut tools that work in browser to improve representative chat response times and consistency.",
+				"Assisted a company team on a data science competition on Kaggle, using Python to create 75% of the figures used in the final submission. URL: https://www.kaggle.com/davekillough/helping-small-charities-thrive."
 			],
 			"isCurrentRole":false,
 			"start":{
@@ -203,7 +259,7 @@ let resume = {
 			"url":"https://www.linkedin.com/school/wheaton-college/",
 			"startDate":"2016-03-01",
 			"endDate":"2019-04-01",
-			"summary":"Set up, operated, and took care of three 12\" telescopes and a 24\" plane-wave telescope. Photographed astronomical phenomena using a CCD camera. Assisted students with course work and conducted demonstrations for community members.",
+			"summary":"While in undergrad, I worked at the college observatory. I set up, operated, and took care of three 12\" telescopes and a 24\" plane-wave telescope. Photographed astronomical phenomena using a CCD camera. Assisted students with and taught them the course material and conducted demonstrations for community members.",
 			"highlights":[
 				
 			],
@@ -229,7 +285,9 @@ let resume = {
 			"endDate":"2018-08-01",
 			"summary":"Worked with a team of engineers to come alongside a community in rural Kyrgyzstan and implement a clean water system. Also, overhauled an excel based model of a coil-pump.",
 			"highlights":[
-				
+				"Installed a spring capture and water delivery system in a rural village in Kyrgyzstan.",
+				"Overhauled an Excel based simulation of a coil-pump, increasing its stability, performance, and features.",
+				"Modeled coilpump parts using CAD."
 			],
 			"isCurrentRole":false,
 			"start":{
@@ -251,9 +309,10 @@ let resume = {
 			"url":"https://www.linkedin.com/school/wheaton-college/",
 			"startDate":"2016-01-01",
 			"endDate":"2018-08-01",
-			"summary":"I refined and tested a continuum model for the protein ion-channel alpha-hemolysin using the finite element method.  This project required the use of industry standard software such as COMSOL, MATLAB, and VMD, proficiency in programming languages such as Java, Python, and TCL,  and a working understanding of partial differential equations, linear algebra, electrodynamics, and fluid physics.",
+			"summary":"I was the principle developer finite element analysis model a protein ion-channel alpha-hemolysin. We were investigating whether such a continuum model could provide accurate results at significant performance savings compared to the usual molecural dynamics simulations.",
 			"highlights":[
-				
+				"Used software such as COMSOL, MATLAB, and VMD, languages such as Java, Python, and TCL to build the model.",
+				"Leveraged a functional understanding of partial differential equations, linear algebra, molecular chemistry, electrodynamics, and fluid dynamics."
 			],
 			"isCurrentRole":false,
 			"start":{
@@ -275,7 +334,7 @@ let resume = {
 			"url":"https://www.linkedin.com/school/wheaton-college/",
 			"startDate":"2018-01-01",
 			"endDate":"2018-05-01",
-			"summary":"Taught mini-lectures on academic writing to a physics class and met with each student one on one to offer constructive feedback on their writing.",
+			"summary":"Taught mini-lectures on academic writing to a STEM class and met with each student one on one to offer constructive feedback on their writing.",
 			"highlights":[
 				
 			],
@@ -301,7 +360,7 @@ let resume = {
 			"endDate":"2017-05-01",
 			"summary":"Work primarily conducted in Unix and MATLAB.",
 			"highlights":[
-				"Tested the robustness of computer aided diagnostic (CAD) schema for diagnosing breast cancer from DCE-MRI images.",
+				"Tested the robustness of computer aided diagnostic (Machine Learning) schema for diagnosing breast cancer from DCE-MRI images.",
 				"Calculated the statistical benefit of including radiomic features over size alone in lesion classification tasks. "
 			],
 			"isCurrentRole":false,
@@ -330,7 +389,12 @@ let resume = {
 			"endDate":"2023-05-01",
 			"score":"4.00",
 			"courses":[
-				
+				"Software Development",
+				"Data Structures and Algorithms",
+				"Computer Systems",
+				"Blockchain & Cryptography",
+				"Computer Systems Programming",
+				"Discrete Mathematics and Probability"
 			],
 			"description":"",
 			"activities":"",
@@ -354,7 +418,18 @@ let resume = {
 			"endDate":"2019-12-01",
 			"score":"3.93",
 			"courses":[
-				
+				"Thermal Physics & Fluids",
+				"Computer Modeling",
+				"Analytical Mechanics",
+				"Electromagnetic Theory",
+				"Advanced Quantum Mechanics", 
+				"Analog Electronics", 
+				"Optics",
+				"Thermodynamics",
+				"Linear Algebra",
+				"Vector Calculus",
+				"Differential Equations",
+				"Partial Differential Equations"
 			],
 			"description":"",
 			"activities":"",
