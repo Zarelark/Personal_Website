@@ -80,15 +80,17 @@ let resume = {
 			"yearsOfExperience":1
 		},
 		{
-			"name":"Software Development",
+			"name":"Software Engineering",
 			"level":"Beginner",
 			"keywords":[
-				"Software Engineering",
+				"Software Development",
 				"Python",
 				"Java",
-				"C",
+				"Javascript",
 				"Computer Science",
-				"Computer System"
+				"Computer System",
+				"Unix",
+				"Machine Learning"
 			],
 			"rating":3,
 			"yearsOfExperience":1
