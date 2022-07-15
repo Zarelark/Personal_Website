@@ -1,4 +1,4 @@
-// from https://svelte.dev/repl/bcccd7a1f43e41a4b824d6f50efe33a6?version=3.48.0
+// modified from https://svelte.dev/repl/bcccd7a1f43e41a4b824d6f50efe33a6?version=3.48.0
 import { spring } from 'svelte/motion';
 
 function getPrefersReducedMotion() {
@@ -12,7 +12,7 @@ export default function boop(node, params) {
 	let { setter } = params;
 	let springyRotation = spring({ x: 0, y: 0, rotation: 0, scale: 1} , {
 		stiffness: 0.1,
-		damping: 0.15
+		damping: 0.1
 	});
 	let prefersReducedMotion = getPrefersReducedMotion();
 	
@@ -23,12 +23,8 @@ export default function boop(node, params) {
 	})
 	
 	return {
-		update({isBooped, x = 0, y = 0, rotation = 0, scale = 1, timing}) {
+		update({isBooped, x = 0, y = 0, rotation = 0, scale = 1}) {
 			springyRotation.set(isBooped ? { x, y, rotation, scale } : { x: 0, y: 0, rotation: 0, scale: 1});
-
-			if (isBooped) {
-				window.setTimeout(() => setter(false), timing);
-			}
 		},
 		destroy() {
 			unsubscribe();
